@@ -5,6 +5,7 @@ import Home from './routes/Home';
 import Signup from './routes/Signup';
 import Login from './routes/Login';
 import Logout from './routes/Logout';
+import Address from './routes/Address';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/logout",
     element: <Logout />
+  },
+  {
+    path: "/address",
+    element: <Address />
   },
 ]);
 

@@ -19,7 +19,7 @@ model User {
   createdAt DateTime @default(now())
 }
 
-// TO-DO run a new migration to create this tab;e in database
+// TO-DO run a new migration to create this table in database
 model Address {
   id          Int      @id
   street      String
